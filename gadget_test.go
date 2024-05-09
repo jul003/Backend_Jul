@@ -13,12 +13,12 @@ func TestInsertAndGetAll(t *testing.T) {
 
 	
 	testGadget := backendjulgo.Gadget{
-		Merek:       "Asus",
-		Model:       "ROG",
-		Tipe:        "Strix",
-		Harga:       110000000,
-		Warna:       "Blue canon",
-		TahunRilis:  2024,
+		Merek:       "Realme",
+		Model:       "GT",
+		Tipe:        "Master Edition",
+		Harga:       4000000,
+		Warna:       "Gray",
+		TahunRilis:  2022,
 		Keterangan:  "Test Keterangan",
 		Spesifikasi: []string{"Spec 1", "Spec 2"},
 		Stok:        10,
