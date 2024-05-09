@@ -13,11 +13,11 @@ func TestInsertAndGetAll(t *testing.T) {
 
 	
 	testGadget := backendjulgo.Gadget{
-		Merek:       "Hp",
-		Model:       "Victus",
-		Tipe:        "16",
-		Harga:       140000000,
-		Warna:       "Red dark",
+		Merek:       "Asus",
+		Model:       "ROG",
+		Tipe:        "Strix",
+		Harga:       110000000,
+		Warna:       "Blue canon",
 		TahunRilis:  2024,
 		Keterangan:  "Test Keterangan",
 		Spesifikasi: []string{"Spec 1", "Spec 2"},
